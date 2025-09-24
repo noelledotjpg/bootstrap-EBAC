@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilo Livre - Barbearia</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS Customizado -->
+    <link href="css/main.css" rel="stylesheet">
+    <!-- Fontshare -->
+    <link href="https://api.fontshare.com/css?f[]=bona-nova@700&f[]=general-sans@400&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="bg-dark text-light">
+
+    <!-- Cabeçalho -->
+    <header class="">
+        <nav class="navbar navbar-expand-lg navbar-dark container">
+            <a class="navbar-brand" href="#">
+                <img src="img/logobarbershop.png" alt="Logo Estilo Livre" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre Nós</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#planos">Planos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#unidades">Unidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home -->
+    <section id="home" class="d-flex align-items-center text-center position-relative overflow-hidden"
+        style="height: 90vh;">
+        <img src="img/barbershop.jpg" alt="Barbearia" class="position-absolute w-100 h-200 top-0 start-0"
+            style="object-fit: cover; filter: blur(3px) brightness(0.6); z-index: 0;">
+
+        <div class="container position-relative" style="z-index: 1; color: #fff;">
+            <h1 class="display-3 fw-bold">Bem-vindo à Barbearia Estilo Livre</h1>
+            <p class="lead">Cortes modernos, estilo único.</p>
+            <a href="" class="btn btn-primary btn-lg mt-3">Agende seu horário</a>
+            <a href="#planos" class="btn btn-primary btn-lg mt-3">Conheça nossos planos</a>
+        </div>
+    </section>
+
+
+
+    <!-- Sobre Nós -->
+    <section id="sobre" class="py-5 text-center">
+        <div class="container">
+            <h2 class="mb-4">Sobre Nós</h2>
+            <p class="lead">A Barbearia Estilo Livre é o lugar certo para quem busca estilo, conforto e qualidade. Com
+                unidades em Santa Rosa, Ingá e Icaraí. Nossa
+                equipe é especializada em cortes modernos, cuidados com a barba e hidratações para realçar seu visual.
+            </p>
+        </div>
+    </section>
+
+    <!-- Planos -->
+    <section id="planos" class="py-5 bg-black text-center">
+        <div class="container">
+            <h2 class="mb-5">Nossos Planos</h2>
+            <p class="lead">Você com seu visual sempre impecável para seus compromissos.
+                Corte o cabelo e faça a barba quantas vezes quiser além de muitos outros benefícios.
+            </p>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card bg-dark text-light h-100 shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">Plano Bronze</h5>
+                            <p class="card-text">Cortes básicos e cuidados essenciais.</p>
+                            <p class="fs-4 text-primary">R$ 89,90/mês</p>
+                            <a href="" class="btn btn-primary btn-lg mt-3">Contratar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-dark text-light h-100 shadow border-primary">
+                        <div class="card-body">
+                            <h5 class="card-title">Plano Prata</h5>
+                            <p class="card-text">Cortes ilimitados + cuidados com a barba.</p>
+                            <p class="fs-4 text-primary">R$ 149,90/mês</p>
+                            <a href="" class="btn btn-primary btn-lg mt-3">Contratar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-dark text-light h-100 shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">Plano Ouro</h5>
+                            <p class="card-text">Todos os serviços incluídos + tratamentos especiais.</p>
+                            <p class="fs-4 text-primary">R$ 109,90/mês</p>
+                            <a href="" class="btn btn-primary btn-lg mt-3">Contratar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="py-5">
+        <div class="container">
+            <h2 class="mb-4 text-center">Nossos Serviços</h2>
+
+            <div class="service-row">
+                <div class="service-name">Corte Máquina</div>
+                <div class="service-price">
+                    <span>Avulso</span>
+                    <p>R$ 40,00</p>
+                </div>
+                <div class="service-price assinante">
+                    <span>Assinante</span>
+                    <p>R$ 00,00</p>
+                </div>
+            </div>
+
+            <div class="service-row">
+                <div class="service-name">Corte Disfarçado (Degradê)</div>
+                <div class="service-price">
+                    <span>Avulso</span>
+                    <p>R$ 50,00</p>
+                </div>
+                <div class="service-price assinante">
+                    <span>Assinante</span>
+                    <p>R$ 00,00</p>
+                </div>
+            </div>
+
+            <div class="service-row">
+                <div class="service-name">Corte Tesoura</div>
+                <div class="service-price">
+                    <span>Avulso</span>
+                    <p>R$ 55,00</p>
+                </div>
+                <div class="service-price assinante">
+                    <span>Assinante</span>
+                    <p>R$ 00,00</p>
+                </div>
+            </div>
+
+            <div class="service-row">
+                <div class="service-name">Barba Express</div>
+                <div class="service-price">
+                    <span>Avulso</span>
+                    <p>R$ 35,00</p>
+                </div>
+                <div class="service-price assinante">
+                    <span>Assinante</span>
+                    <p>R$ 00,00</p>
+                </div>
+            </div>
+
+            <div class="service-row">
+                <div class="service-name">Combo Cabelo + Barba</div>
+                <div class="service-price">
+                    <span>Avulso</span>
+                    <p>R$ 75,00</p>
+                </div>
+                <div class="service-price assinante">
+                    <span>Assinante</span>
+                    <p>R$ 00,00</p>
+                </div>
+            </div>
+
+            <div class="service-row">
+                <div class="service-name">Kids - Corte Infantil</div>
+                <div class="service-price">
+                    <span>Avulso</span>
+                    <p>R$ 55,00</p>
+                </div>
+                <div class="service-price assinante">
+                    <span>Assinante</span>
+                    <p>R$ 00,00</p>
+                </div>
+            </div>
+
+            <div class="service-row">
+                <div class="service-name">Pezinho Contorno</div>
+                <div class="service-price">
+                    <span>Avulso</span>
+                    <p>R$ 20,00</p>
+                </div>
+                <div class="service-price assinante">
+                    <span>Assinante</span>
+                    <p>R$ 00,00</p>
+                </div>
+            </div>
+
+            <div class="service-row">
+                <div class="service-name">Máscara Negra / Limpeza de pele</div>
+                <div class="service-price">
+                    <span>Avulso</span>
+                    <p>R$ 15,00</p>
+                </div>
+                <div class="service-price assinante">
+                    <span>Assinante</span>
+                    <p>R$ 13,50</p>
+                </div>
+            </div>
+
+            <div class="service-row">
+                <div class="service-name">Sobrancelha</div>
+                <div class="service-price">
+                    <span>Avulso</span>
+                    <p>R$ 15,00</p>
+                </div>
+                <div class="service-price assinante">
+                    <span>Assinante</span>
+                    <p>R$ 13,50</p>
+                </div>
+            </div>
+
+            <div class="service-row">
+                <div class="service-name">Depilação Orelha e Nariz</div>
+                <div class="service-price">
+                    <span>Avulso</span>
+                    <p>R$ 15,00</p>
+                </div>
+                <div class="service-price assinante">
+                    <span>Assinante</span>
+                    <p>R$ 13,50</p>
+                </div>
+            </div>
+
+            <div class="service-row">
+                <div class="service-name">Barba + Toalha Quente</div>
+                <div class="service-price">
+                    <span>Avulso</span>
+                    <p>R$ 50,00</p>
+                </div>
+                <div class="service-price assinante">
+                    <span>Assinante</span>
+                    <p>R$ 00,00</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Unidades -->
+    <section id="unidades" class="py-5 bg-black text-center">
+        <div class="container">
+            <h2 class="mb-4">Nossas Unidades</h2>
+            <p class="lead"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-map-pin">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                </svg> Unidade Santa Rosa: Rua Dr. Paulo César, 203 - Loja 2
+                Icaraí, Niterói/RJ</p>
+            <p class="lead"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-map-pin">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                </svg> Unidade Icaraí: Rua Geraldo Martins, 153
+                Icaraí - Niterói/RJ</p>
+            <p class="lead"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-map-pin">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                </svg> Barbeirada Club Ingá: Rua Dr. Pereira Nunes, 42
+                Ingá - Niterói/RJ</p>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="py-5 text-center">
+        <div class="container">
+            <h2 class="mb-4">Contato</h2>
+            <p class="lead">Entre em contato conosco, será um prazer atendê-lo(a).</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-phone">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path
+                        d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                </svg> (11) 99999-1111</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-brand-whatsapp">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+                    <path
+                        d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1" />
+                </svg> (11) 98888-2222</p>
+            <h5 class="mt-4">Redes Sociais</h5>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+                    <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                    <path d="M16.5 7.5v.01" />
+                </svg> Instagram | <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-brand-facebook">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                </svg> Facebook</p>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="bg-black text-center py-3">
+        <p class="mb-0">© 2025 Barbearia Estilo Livre - Todos os direitos reservados</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
